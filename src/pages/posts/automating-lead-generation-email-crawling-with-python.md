@@ -8,11 +8,10 @@ template: post
 ---
 <img src="https://snipboard.io/Ba9Ing.jpg">
 
+_Want to skip the post and see the good stuff directly? Here is the_ [_Github repo_](https://github.com/amitupreti/Email-Crawler-Lead-Generator/blob/master/README.md)
 
-*Want to skip the post and see the good stuff directly? Here is the Github repo*
-{% github nOOBIE-nOOBIE/Email-Crawler-Lead-Generator no-readme %}
 
-Lead Generation is a very Lucrative business and people earn a ton of money just by finding emails to their client.
+> Lead Generation is a very Lucrative business and people earn a ton of money just by finding emails to their client.
 
 Today we will automate Lead Generation/Email Crawling with a simple python script.
 
@@ -22,9 +21,10 @@ Our crawler will visit all sub-pages of the provided website and look for emails
 
 ![Crawler Demo](https://media.giphy.com/media/VGtDkE48N9WtMnqQiV/giphy.gif)
 
-
 ## See the code
+
 First, let's see the code and then I will explain each step.
+
 ```py
 import re
 import requests
@@ -175,6 +175,7 @@ crawl.crawl()
 ```
 
 Let's understand what is happening here
+
 ## First part init function
 
 ```py
@@ -199,6 +200,7 @@ class EmailCrawler:
 ```
 
 We have defined the following Sets
+
 * processed_urls --> will hold the URLs that we have visited(so that we won't visit the same URL twice)
 * unprocessed_urls --> will hold the URLs that are on the queue to parse
 * emails --> will hold the parsed emails.
@@ -206,9 +208,10 @@ We have defined the following Sets
 We will use the base URL later to make sure our crawler doesn't visit outside  URLs.
 For example: if the user passes `https://www.medium.com` then the base URL would be `medium.com`. We will use this later to ensure that our crawler will only visit the URL within this domain.
 
-
 ## crawl function
+
 The crawl function is a starting point of our crawler. It will keep visiting all the URLs in the queue until we have visited every URL on the website.
+
 ```py
 def crawl(self):
         """
@@ -231,13 +234,15 @@ def crawl(self):
                 f.write('\n'.join(self.processed_urls))
 ```
 
-
 ## parse url function
+
 Our `parse_urls` function is where extraction happens. Here we
+
 * parse and filter all the URLs found on the given page.
 * We filtered `duplicate URLs`, `URLs outside the domain` and `already visited URLs`
 * We will also make sure that we don't try to visit urls that lead to files such as jpg,mp4,zips.
 * We finally parse the page for emails and then write them to a CSV file.
+
 ```py
 def parse_url(self, current_url: str):
         """
@@ -293,11 +298,12 @@ def parse_url(self, current_url: str):
         self.processed_urls.add(current_url)
 
         
-
 ```
 
 ## parse email function
+
 It takes a text input and then finds emails on that text and finally writes these emails to a CSV file.
+
 ```py
        
 
@@ -333,61 +339,59 @@ def parse_emails(self, text: str):
         return True
     else:
         return False
-
 ```
 
 ## How do i run this code?
 
-
-
 To get a local copy up and running follow these simple steps.
 
 ### Installation
- 
+
 1. Clone the Email-Crawler-Lead-Generator
+
 ```sh
 git clone https://github.com/nOOBIE-nOOBIE/Email-Crawler-Lead-Generator.git
 ```
+
 2. Install dependencies
+
 ```sh
 pip install -r requirements.txt
 ```
 
-
-
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 Simply pass the url as an argument
+
 ```sh
 python email_crawler.py https://medium.com/
 ```
 
-  ### Output
-  ```sh
-  ➜  email_crawler python3 email_crawler.py https://medium.com/
+### Output
+
+```sh
+➜  email_crawler python3 email_crawler.py https://medium.com/
 WELCOME TO EMAIL CRAWLER
 CRAWL : https://medium.com/
- 1 Email found press@medium.com
- 2 Email found u002F589e367c28ca47b195ce200d1507d18b@sentry.io
+1 Email found press@medium.com
+2 Email found u002F589e367c28ca47b195ce200d1507d18b@sentry.io
 CRAWL : https://medium.com/creators
- 3 Email found joshsrose@me.com
- 4 Email found yourfriends@medium.com
- 5 Email found partnerprogram@medium.com
- 6 Email found dominiquemattiwrites@gmail.com
- 7 Email found hihumanparts@gmail.com
+3 Email found joshsrose@me.com
+4 Email found yourfriends@medium.com
+5 Email found partnerprogram@medium.com
+6 Email found dominiquemattiwrites@gmail.com
+7 Email found hihumanparts@gmail.com
 CRAWL : https://medium.com/@mshannabrooks
 CRAWL : https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40mshannabrooks&source=listing-----5f0204823a1e---------------------bookmark_sidebar-
 CRAWL : https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40mshannabrooks&source=-----e5d9a7ef4033----6------------------
-
 ```
-
 
 If you have suggestions or find some issues. 
 
 Feel free to [open issues](https://github.com/nOOBIE-nOOBIE/Email-Crawler-Lead-Generator/issues) or a [Pull Request](https://github.com/nOOBIE-nOOBIE/Email-Crawler-Lead-Generator/issues) on github.
 
-
 Thank you for reading
-### YOU ARE AWESOME
 
+### YOU ARE AWESOME
