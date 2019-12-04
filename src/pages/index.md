@@ -1,5 +1,5 @@
 ---
-title: Hello
+title: Welcome
 sections:
   - component: HeroBlock
     content: Probably behind a computer right now!
