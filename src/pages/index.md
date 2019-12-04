@@ -8,6 +8,8 @@ sections:
   - actions:
       - label: Contact Me
         url: /contact
+      - label: Hire me
+        url: 'https://www.upwork.com/freelancers/~0138a590d015bae20a'
     component: ContentBlock
     content: >-
       I am passionate about solving real life problems and automating mundane
