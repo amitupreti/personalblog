@@ -42,7 +42,11 @@ export default class Contact extends React.Component {
                     <textarea name="message" placeholder="Your message..." className="form-textarea" rows="7" />
                   </p>
                   <input type="hidden" name="form-name" value="contactForm" />
+                      
+                        <div data-netlify-recaptcha="true"></div>
+
                   <p className="form-row">
+                      
                     <button type="submit" className="button">Send Message</button>
                   </p>
                 </form>
