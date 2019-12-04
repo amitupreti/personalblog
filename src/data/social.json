@@ -7,12 +7,6 @@
       "url": "https://twitter.com/amitupretii"
     },
     {
-      "type": "instagram",
-      "title": "Instagram",
-      "icon": "fa-instagram",
-      "url": "https://www.instagram.com/"
-    },
-    {
       "type": "github",
       "title": "GitHub",
       "icon": "fa-github",
