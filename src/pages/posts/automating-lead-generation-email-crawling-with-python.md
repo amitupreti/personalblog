@@ -8,8 +8,9 @@ template: post
 ---
 <img src="https://snipboard.io/Ba9Ing.jpg">
 
-_Want to skip the post and see the good stuff directly? Here is the_ [_Github repo_](https://github.com/amitupreti/Email-Crawler-Lead-Generator/blob/master/README.md)
 
+
+_Want to skip the post and see the good stuff directly? Here is the_ [_Github repo_](https://github.com/amitupreti/Email-Crawler-Lead-Generator/blob/master/README.md)
 
 > Lead Generation is a very Lucrative business and people earn a ton of money just by finding emails to their client.
 
