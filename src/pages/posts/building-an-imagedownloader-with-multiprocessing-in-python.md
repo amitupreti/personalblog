@@ -289,6 +289,4 @@ Would love any response on how this can be improved further.
 
 #### Happy coding!
 
-
-
 This was also posted in[ dev.to](https://dev.to/amitupreti/building-an-imagedownloader-with-multiprocessing-in-python-1fn2) and [medium](https://medium.com/better-programming/building-an-imagedownloader-with-multiprocessing-in-python-44aee36e0424).
