@@ -3,6 +3,7 @@ title: Building an ImageDownloader with multiprocessing in python
 subtitle: Sometimes it takes hours to download a large number of images — let’s fix that
 date: 2019-12-04T08:25:00.010Z
 thumb_img_path: /images/1_f4akt8pdljhllham3ln4dw.jpeg
+content_img_path: /images/1_f4akt8pdljhllham3ln4dw.jpeg
 canonical_url: ''
 template: post
 ---
