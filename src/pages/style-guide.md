@@ -3,8 +3,8 @@ title: Conference papers and Publications
 subtitle: Please find my conference paper and publications
 menus:
   main:
-    title: Style Guide
-    weight: 3
+    title: publications
+    weight: 2
 template: page
 ---
 
