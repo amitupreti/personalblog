@@ -2,7 +2,7 @@
 title: Hello
 sections:
   - component: HeroBlock
-    content: ''
+    content: Probably behind a computer right now!
     section_id: hero
     type: heroblock
   - actions:
