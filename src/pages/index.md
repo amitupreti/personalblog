@@ -1,35 +1,39 @@
 ---
-title: Home
+title: Hello
 sections:
-  - type: heroblock
+  - component: HeroBlock
+    content: ''
     section_id: hero
-    component: HeroBlock
-    content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
-  - type: contentblock
-    title: About
-    section_id: about
-    actions:
+    type: heroblock
+  - actions:
       - label: Contact Me
         url: /contact
     component: ContentBlock
     content: >-
-      This is the "about" excerpt. It can be used to provide a paragraph about
-      yourself that people can read on the homepage to get a sense of who you
-      are. There also exists a dedicated about page where you can write more
-      about yourself for those who are interested.
-  - type: postsblock
-    title: Recent Posts
-    section_id: recent-posts
-    actions:
+      I am passionate about solving real life problems and automating mundane
+      problems with simple programs or whatever it takes. 
+
+
+
+
+      Here, you can find about my projects, publications. I mostly write about
+      things that I am learning and might be useful to other developers or
+      myself in future.
+    section_id: about
+    title: About
+    type: contentblock
+  - actions:
       - label: View Blog
         url: blog/index.html
     component: PostsBlock
     num_posts_displayed: 4
+    section_id: recent-posts
+    title: Recent Posts
+    type: postsblock
 menus:
   main:
     title: Home
     weight: 1
 template: home
 ---
+
