@@ -6,8 +6,6 @@ date: 2020-01-04T17:53:44.047Z
 thumb_img_path: /images/twitter-2300071_1280.png
 template: post
 ---
-- - -
-
 I get it — You are tired of searching for datasets online for your machine learning project or maybe for analyzing a popular twitter trend.
 
 Today we will learn how to generate your own custom dataset from twitter by using hashtag search.
@@ -34,7 +32,7 @@ Crawl-delay: 1
 
 ## Walking through the code
 
-*This assumes that you have some basic knowledge of python and scrapy. If you are interested in only generating your own dataset, skip this section and go to **sample crawl section** directly or visit [GitHub repo](https://github.com/amitupreti/Hands-on-WebScraping/tree/master/project1_twitter_hashtag_crawler)*
+*This assumes that you have some basic knowledge of python and scrapy. If you are interested in only generating your own dataset, skip this section and go to **sample crawl section** directly or visit [GitHub repo](https://github.com/amitupreti/Hands-on-WebScraping/tree/master/project1_twitter_hashtag_crawler).*
 
 ### **Gathering** tweets URL by searching through hashtags
 
@@ -46,7 +44,7 @@ For searching for tweets we will be using the legacy twitter website. Let’s tr
 
 ![mobile version of twitter easier to crawl](https://cdn-images-1.medium.com/max/880/1*tBYwszcGzOckuEJGxydNrg.png)
 
-#### **Finding all the tweet URL for our hashtag search —***find_tweets( ) function*
+#### **Finding all the tweet URL for our hashtag search —** *find_tweets( ) function*
 
 ``
 
@@ -259,8 +257,6 @@ scrapy crawl twittercrawler -a filename=myhashtags.csv -o mydata.xml
 
 ![sample twitter crawler](https://cdn-images-1.medium.com/max/880/1*kfILB3YCn9uGMSX5q5KMRQ.png)
 
-Twitter crawler sample
-
 ![sample twitter crawler](https://cdn-images-1.medium.com/max/880/1*Uu9hnE2PWsdLoWrTr_ahHw.png)
 
 You should now see the data being saved the output file with the format you choose
@@ -269,7 +265,7 @@ You should now see the data being saved the output file with the format you choo
 
 **Speeding up the crawls**
 
-If you feel like the crawler is a little slow then find the hashtag.py file in the project and edit the custom settings.
+If you feel like the crawler is a little slow then find the `hashtag.py` file in the project and edit the custom settings.
 
 ![hashtag.py location](https://cdn-images-1.medium.com/max/880/1*fYrWXxooT-IIGoS7OhfdPA.png)
 
