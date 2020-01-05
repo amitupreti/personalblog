@@ -32,7 +32,7 @@ Crawl-delay: 1
 
 ## Walking through the code
 
-*This assumes that you have some basic knowledge of python and scrapy. If you are interested in only generating your own dataset, skip this section and go to **sample crawl section** directly or visit [GitHub repo](https://github.com/amitupreti/Hands-on-WebScraping/tree/master/project1_twitter_hashtag_crawler).*
+This assumes that you have some basic knowledge of python and scrapy. If you are interested in only generating your own dataset, skip this section and go to **sample crawl section** directly or visit [GitHub repo](https://github.com/amitupreti/Hands-on-WebScraping/tree/master/project1_twitter_hashtag_crawler).
 
 ### **Gathering** tweets URL by searching through hashtags
 
