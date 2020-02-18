@@ -1,20 +1,20 @@
 ---
 title: About Me
-subtitle: This is a short page about me and my work.
-img_path: images/about.jpg
+subtitle: ''
+img_path: ''
 menus:
   main:
     title: About
     weight: 4
 template: page
 ---
+Hello there  I'm **Amit**.\
+I hope you stumbled upon this website on purpose! Otherwise, let me introduce myself.\
+\
+I'm a Data Pipeline Engineer@[Grepsr](grepsr.com) living in Nepal . Most of my projects and Learning Goals revolve around Deep Learning and Data Science.
 
-**John Doe** is a Senior Art Director from [Stockholm](https://en.wikipedia.org/wiki/Stockholm), Sweden. After graduating from The College of Visual Arts with a degree in Communication Design, he worked for three small graphic design shops where he honed his design style and sensibility.
+My main focus is on build Deep Learning and Data Extraction systems/tools rather than to just display F1 scores and accuracy.
 
-His work has been recognized by Communication Arts, Print, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. Graphic Design USA named him a person to watch in 2019.
-
->The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
-
-As a hobby, John Doe authors the most influential design blog in Sweden with over 100,000 page views a month. He lives in Stockholm with his beautiful wife and two boys.
+I mostly code in Node.js and Python and write about things that what i enjoy on [medium](https://medium.com/@amitupreti) and on this website.  You can check out my opensource projects on [GitHub](https://github.com/amitupreti) or connect to me on [LinkedIn](https://www.linkedin.com/in/amitupreti/) if you have a cool project or and idea that you want to discuss.
 
 *Thank You for reading!*
