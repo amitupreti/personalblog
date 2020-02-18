@@ -15,6 +15,9 @@ I'm a Data Pipeline Engineer@[Grepsr](grepsr.com) living in Nepal . Most of my p
 
 My main focus is on build Deep Learning and Data Extraction systems/tools rather than to just display F1 scores and accuracy.
 
-I mostly code in Node.js and Python and write about things that what i enjoy on [medium](https://medium.com/@amitupreti) and on this website.  You can check out my opensource projects on [GitHub](https://github.com/amitupreti) or connect to me on [LinkedIn](https://www.linkedin.com/in/amitupreti/) if you have a cool project or and idea that you want to discuss.
+> “Live as if you were to die tomorrow. Learn as if you were to live forever.”\
+> ― Mahatma Gandhi
+
+I mostly code in Node.js and Python and write about things that what i enjoy on [medium](https://medium.com/@amitupreti) and on this website.  You can check out my opensource projects on [GitHub](https://github.com/amitupreti) or connect to me on [LinkedIn](https://www.linkedin.com/in/amitupreti/) if you want to say hi or discuss your Awesome project.
 
 *Thank You for reading!*
