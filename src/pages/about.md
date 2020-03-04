@@ -13,7 +13,7 @@ I hope you stumbled upon this website on purpose! Otherwise, let me introduce my
 \
 I'm a Data Pipeline Engineer@[Grepsr](grepsr.com) living in Nepal . Most of my projects and Learning Goals revolve around Deep Learning and Data Science.
 
-My main focus is on build Deep Learning and Data Extraction systems/tools rather than to just display F1 scores and accuracy.
+My main focus is on build Deep Learning and Data Extraction systems/tools rather than to just display F1 scores and accuracy, so that they can have a real world use.
 
 > “Live as if you were to die tomorrow. Learn as if you were to live forever.”\
 > ― Mahatma Gandhi
