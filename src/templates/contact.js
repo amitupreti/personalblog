@@ -31,15 +31,15 @@ export default class Contact extends React.Component {
                   </p>
                   <p className="form-row">
                     <label className="form-label">Name *</label>
-                    <input type="text" name="name" placeholder="Your name..." className="form-input"/>
+                    <input type="text" name="name" required placeholder="Your name..." className="form-input"/>
                   </p>
                   <p className="form-row">
                     <label className="form-label">Email *</label>
-                    <input type="email" name="email" placeholder="Your email address..." className="form-input"/>
+                    <input type="email" name="email"  required placeholder="Your email address..." className="form-input"/>
                   </p>
                   <p className="form-row">
                     <label className="form-label">Message *</label>
-                    <textarea name="message" placeholder="Your message..." className="form-textarea" rows="7" />
+                    <textarea name="message" required placeholder="Your message..." className="form-textarea" rows="7" />
                   </p>
                   <input type="hidden" name="form-name" value="contactForm" />
                       
