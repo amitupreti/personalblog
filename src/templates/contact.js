@@ -43,7 +43,7 @@ export default class Contact extends React.Component {
                   </p>
                   <input type="hidden" name="form-name" value="contactForm" />
                       
-                        <div data-netlify-recaptcha="true"></div>
+      <div class="g-recaptcha" data-sitekey="6Lc-H-gUAAAAAO_AMaS4yJgRvcuGvYA4c69YHnr8"></div>
 
                   <p className="form-row">
                       
